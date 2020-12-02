@@ -24,11 +24,13 @@ For the Implementation of the code we recommend to have the following libraries:
 - pip install os-sys
 - pip install requests
 
-First, we will need to fill out the variable that holds the keys for the Twitter API access. The variables are in the file “gettingTwitterFeeds.” There are two types of keys, which are public and secrete for access and consumer token.  Add the access token key to the variable “access_token,” the secret access key would be in the variable “access_secret.” After that, we need to put the consumer key in the variable “consumer_key,” and the secret consumer key would be saved in the variable “consumer_secret.”
+**Steps to execute the code** 
+- First, we will need to fill out the variable that holds the keys for the Twitter API access. The variables are in the file “gettingTwitterFeeds.” There are two types of keys, which are public and secrete for access and consumer token.  Add the access token key to the variable “access_token,” the secret access key would be in the variable “access_secret.” After that, we need to put the consumer key in the variable “consumer_key,” and the secret consumer key would be saved in the variable “consumer_secret.”
 
-We can then select the output file in the variable “OUTPUT_FILE” and control the number of tweets in the variable “TWEETS_TO_CAPTURE.”
+- We can then select the output file in the variable “OUTPUT_FILE” and control the number of tweets in the variable “TWEETS_TO_CAPTURE.”
 
-Next, we can run all the all cell that is in the file “gettingTwitterFeeds” ( since it is a Jupyter Notebook) 
+- Next, we can run all the all cell that is in the file “gettingTwitterFeeds” ( since it is a Jupyter Notebook) 
 
-Then, we move to the next file, “Twitter_SentimentAnalysis.” For this file, we just need to run all the cells available in this notebook. Note, we recommend doing a small stop after we reach the cell that contains the command “ssc.start()”  because here is where we start the streaming, and we can go to the file “gettingTwitterFeeds” to see when we reach the desired number of tweets. 
-After that, we finish executing all the reminder cells for the Jupyter notebook file Twitter_SentimentAnalysis.
+- Then, we move to the next file, “Twitter_SentimentAnalysis.” For this file, we just need to run all the cells available in this notebook. Note, we recommend doing a small stop after we reach the cell that contains the command “ssc.start()”  because here is where we start the streaming, and we can go to the file “gettingTwitterFeeds” to see when we reach the desired number of tweets. 
+
+- After that, we finish executing all the reminder cells for the Jupyter notebook file Twitter_SentimentAnalysis.
