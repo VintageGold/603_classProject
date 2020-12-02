@@ -30,7 +30,7 @@ For the Implementation of the code we recommend to have the following libraries:
 
 - We can then select the output file in the variable “OUTPUT_FILE” and control the number of tweets in the variable “TWEETS_TO_CAPTURE.”
 
-- Next, we can run all the all cell that is in the file “gettingTwitterFeeds” ( since it is a Jupyter Notebook) 
+- Next, we can run all the all cell that is in the file “gettingTwitterFeeds.” ( since it is a Jupyter Notebook) 
 
 - Then, we move to the next file, “Twitter_SentimentAnalysis.” For this file, we just need to run all the cells available in this notebook. Note, we recommend doing a small stop after we reach the cell that contains the command “ssc.start()”  because here is where we start the streaming, and we can go to the file “gettingTwitterFeeds” to see when we reach the desired number of tweets. 
 
