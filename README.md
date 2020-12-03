@@ -1,5 +1,6 @@
 # 603_classProject
-603 Class Project that involve a twitter sentiment analysis
+603 Big Data Platforms Class Project that involve a twitter sentiment analysis. The aim was to use data from the social media platform, Twitter, to track the spread of tweets (via like and retweet metrics) which contain positive sentiment as compared to those that contain negative sentiment. Sentiment Analysis, also called opinion mining, is a popular subset of the broader field of NLP; it is related to analyzing the divergence of documents.
+
 
 ### Code Description 
 The code implementation for this project covers the Big Data diagram. The implementation of this project would be divided into two main parts  (file). 
