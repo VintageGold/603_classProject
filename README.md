@@ -36,3 +36,11 @@ For the Implementation of the code we recommend to have the following libraries:
 - Then, we move to the next file, “Twitter_SentimentAnalysis.” For this file, we just need to run all the cells available in this notebook. Note, we recommend doing a small stop after we reach the cell that contains the command “ssc.start()”  because here is where we start the streaming, and we can go to the file “gettingTwitterFeeds” to see when we reach the desired number of tweets. 
 
 - After that, we finish executing all the reminder cells for the Jupyter notebook file Twitter_SentimentAnalysis.
+
+#### Connecting to the data with Tableau
+
+Using the MongoDB BI connector it is possible to connect your MongoDB cluster to Tableau directly. However, this requires the use of the paid MongoDB service at the M10 or higher level. Because we did not perform this analysis at a large enough scale to  warrant that service, we instead chose to use the inate JSON reading capability in tableau. The steps are as follows:
+1. Using MongoDB Compass, export a JSON of the data, excluding unneccesary variables
+2. In Tableau, select JSON file from the New Data Source dropdown menu and select your .JSON File
+3. Input the Schema of the data being uploaded for the file 
+4. Proceed with analysis
